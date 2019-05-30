@@ -8,5 +8,5 @@ const ProfesoresSchema = new Schema({
 
 });
 
-var Profesores = mongoose.model("Asistencias", ProfesoresSchema);
+var Profesores = mongoose.model("Profesores", ProfesoresSchema);
 module.exports = Profesores;

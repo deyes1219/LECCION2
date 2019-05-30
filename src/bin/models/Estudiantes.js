@@ -9,7 +9,7 @@ const EstudiantesSchema = new Schema({
   id_acudientes:[
     {
       type: Schema.Types.ObjectId,
-      ref: "acudientes"
+      ref: "Acudientes"
     }
   ]
 });

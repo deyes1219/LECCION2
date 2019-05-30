@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const AcudientesSchema = new Schema({
   nombre: String,
   apellido: String,
-  tel: Number,
+  telefono: Number,
 
 });
 
